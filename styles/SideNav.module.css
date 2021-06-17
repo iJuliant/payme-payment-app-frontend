@@ -1,0 +1,35 @@
+.container {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 25px;
+  font-family: 'Nunito', sans-serif;
+  text-align: start;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.menus {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.menus:hover {
+  color: var(--main);
+  cursor: pointer;
+  border-left: 2px solid var(--main);
+}
+
+.menuLogout {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.menuLogout:hover {
+  color: red;
+  cursor: pointer;
+  border-left: 2px solid red;
+}
+
+.icons {
+  font-size: larger;
+  text-align: center;
+}

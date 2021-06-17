@@ -1,0 +1,147 @@
+.container {
+  font-family: 'Nunito', sans-serif;
+}
+
+.left {
+  padding: 3rem;
+  height: 110vh;
+  background-image: url('../public/authbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+}
+
+.appName {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.phone {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+
+.subHeading {
+  font-size: large;
+  font-weight: 700;
+}
+
+.right {
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  height: 100vh;
+  color: #444444;
+}
+
+.formHeading {
+  font-weight: 700;
+}
+
+.formSubHeading {
+  /* font-size: small; */
+  margin-top: 1em;
+  font-weight: normal;
+  opacity: 70%;
+}
+
+.formContainer {
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.inputGroup {
+  border-bottom: 2px solid lightgrey;
+}
+
+.inputGroupButton {
+  margin-top: 3rem !important;
+}
+
+.icons {
+  font-size: larger;
+  color: gray;
+}
+
+.customInputBox {
+  border: none;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  color: #444444;
+  background-color: lightgrey;
+  border: none;
+}
+
+.button:hover {
+  background-color: var(--main);
+  color: var(--white);
+  border: 1px solid var(--accent);
+}
+
+.haveAccount {
+  text-align: center;
+}
+
+.haveAccount:hover {
+  color: var(--main);
+  cursor: pointer;
+}
+
+.pinField {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.customPinBox {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem; 
+}
+
+.forgotPassword {
+  text-align: end;
+}
+
+.forgotPassword:hover {
+  color: var(--main);
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .left {
+    display: none;
+  }
+  .balance {
+    text-align: center;
+  }
+  .button {
+    margin: 3%;
+  }
+  .chart {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .left {
+    display: none;
+  }
+  .balance {
+    text-align: center;
+  }
+  .button {
+    margin: 3%;
+  }
+  .chart {
+    display: none;
+  }
+}

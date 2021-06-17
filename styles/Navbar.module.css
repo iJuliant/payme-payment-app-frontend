@@ -1,0 +1,46 @@
+.container {
+  margin: 0 10% 0 10%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.brand {
+  font-size: x-large;
+  font-weight: 700;
+  color: var(--main) !important;
+}
+
+.brand:hover {
+  color: blueviolet !important;
+}
+
+.profileImg {
+  width: 3rem;
+  height: 3rem;
+  /* border: 2px solid var(--main); */
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+.profileImg:hover {
+  border: 2px solid var(--main);
+  cursor: pointer;
+}
+
+.profileDetails:hover {
+  color: var(--main);
+  cursor: pointer
+}
+
+.notification {
+  margin-left: 1rem;
+  font-size: x-large;
+}
+
+.notification:hover {
+  color: var(--main);
+  cursor: pointer;
+}
+
+.profileDetails {
+  font-size: small;
+}
